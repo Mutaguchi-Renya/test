@@ -25,6 +25,32 @@ body {
     background-color: var(--color-bg);
 }
 
+.header {
+    padding: 16px 0;
+    background-color: var(--color-white);
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-list a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: var(--color-main);
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
